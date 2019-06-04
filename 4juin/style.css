@@ -1,0 +1,103 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+
+/* DIV */
+#monMenu {
+    background-color: rgba(150, 255, 150, 1);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* UL */
+#menu {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+
+
+}
+
+/* LI */
+.li {
+    display: inline;
+}
+
+.li:hover {
+    background-color: yellow;
+}
+
+a {
+    padding: 0px;
+
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* **************************************************** */
+
+/* ****************************** */
+
+#monTableau {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: white;
+}
+
+td,
+th,
+tr {
+    border: 2px solid black;
+
+}
+
+tr:hover {
+    background-color: beige;
+}
+
+#droite {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.tab1 {
+    width: 10%;
+}
+
+.tab2 {
+    width: 50%;
+}
+
+#sousTable {
+    text-align: bottom;
+}
+
+
+.monImage {
+    margin: 0px;
+}
